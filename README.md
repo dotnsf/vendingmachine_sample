@@ -1,22 +1,8 @@
-# electron_sample
+# vendingmachine_sample
 
 ## Overview
 
 ## How to use
-
-### Install electron
-
-- `$ npm install -g electron-prebuilt`
-
-### Install dependencies
-
-- `$ npm install`
-
-### Run
-
-- `$ cd ..`
-
-- `$ electron electron_sample`
 
 ## Licensing
 
