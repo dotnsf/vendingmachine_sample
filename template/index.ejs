@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Vending Machine サンプル</title>
+<script src="//code.jquery.com/jquery-2.0.3.min.js"></script>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet"/>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<link href="//use.fontawesome.com/releases/v5.5.0/css/all.css" rel="stylesheet"/>
+<script>
+$(function(){
+});
+</script>
+<style>
+html, body{
+  text-align: center;
+  background-color: #fafafa;
+  font-size: 20px;
+  color: #333;
+}
+
+.color-gray{
+  color: gray;
+}
+
+.color-skyblue{
+  color: skyblue;
+}
+
+.color-orange{
+  color: #fecb81;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <table class="table table-bordered">
+    <thead id="table_head">
+      <tr>
+        <td><i class="fas fa-wine-bottle color-gray"></i></td>
+        <td><i class="fas fa-wine-bottle color-skyblue"></i></td>
+        <td><i class="fas fa-wine-bottle color-orange"></i></td>
+      </tr>
+      <tr>
+        <td><input class="btn btn-success" value="Buy"/></td>
+        <td><input class="btn btn-success" value="Buy"/></td>
+        <td><input class="btn btn-danger" value="Sold Out"/></td>
+      </tr>
+    </thead>
+    <tbody id="table_body">
+    </tbody>
+  </table>
+</div>
+
+</body>
+</html>
+
