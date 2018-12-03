@@ -36,6 +36,13 @@ html, body{
 <body>
 
 <div class="container">
+  <div class="jumbotron mt-4">
+    <h1 class="display-4">Vending Machine サンプル</h1>
+    <p class="lead">自動販売機シミュレータ</p>
+  </div>
+</div>
+
+<div class="container">
   <table class="table table-bordered">
     <thead id="table_head">
       <tr>
@@ -54,6 +61,30 @@ html, body{
   </table>
 </div>
 
+<div class="container">
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <td style="text-align: right;">
+          <input type="number" id="coins" max="500" min="0" step="10" value="0"/>
+          <i class="fas fa-coins color-gray"></i>
+        </td>
+      </tr>
+    </thead>
+  </table>
+</div>
+
+<div class="container">
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <td style="text-align: center;" id="box">
+          <i class="fas fa-square color-gray"></i>
+        </td>
+      </tr>
+    </thead>
+  </table>
+</div>
+
 </body>
 </html>
-
